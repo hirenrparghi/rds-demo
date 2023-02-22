@@ -1,7 +1,4 @@
-# provider "aws" {
-#     access_key = "AKIAVPO6L223DHQVCJK2"
-#     secret_key = "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"  
-# }
+
 
 resource "aws_db_instance" "RDS" {
   allocated_storage    = 10
